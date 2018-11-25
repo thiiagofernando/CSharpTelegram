@@ -11,8 +11,8 @@ namespace Telegram {
         public void Enviar (string mensagem) {
 
             string urlString = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}";
-            string apiToken = "747937067:AAFHzbSiWiooKhdnfwrYRBdgWuUj9tgu7CE";
-            string chatId = "@cmsflex";
+            string apiToken = "Toke_Api_do_Canal";
+            string chatId = "@_nome_do_canal";
             string text = mensagem;
 
             urlString = String.Format (urlString, apiToken, chatId, text);
